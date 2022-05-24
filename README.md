@@ -26,11 +26,8 @@ This project is to show list of password and other related data for authenticate
   
 -> Under celery.py file:
    #Celery Beat
-    app.conf.beat_schedule = {
-      'send-mail-perodically': {
-          'task': 'api.tasks.send_mail_task',
-          'schedule': crontab(hour=17,minute=25), # Add time when the email is to be sent perodically. For example, if we want to send email at 15:00 P.M. It can be              set as crontab(hour=15,minute=00).
-     }}
+   - At app.conf.beat_schedule{ } :
+      --> 'schedule': crontab(hour=17,minute=25), # Add time when the email is to be sent perodically. For example, if we want to send email at 15:00 P.M. It can be              set as crontab(hour=15,minute=00).
 
 # Features
 1. Users can signup and login (include both email/password and google login).
