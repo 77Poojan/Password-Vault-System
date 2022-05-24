@@ -25,7 +25,6 @@ This project is to show list of password and other related data for authenticate
   - DEFAULT_FROM_EMAIL = 'Celery <>' - inside <> add your email
   
 -> Under celery.py file:
-   #Celery Beat
    - At app.conf.beat_schedule{ } :
       --> 'schedule': crontab(hour=17,minute=25), # Add time when the email is to be sent perodically. For example, if we want to send email at 15:00 P.M. It can be              set as crontab(hour=15,minute=00).
 
