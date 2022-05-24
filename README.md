@@ -23,9 +23,15 @@ This project is to show list of password and other related data for authenticate
   - EMAIL_HOST_USER = '' - add your email
   - EMAIL_HOST_PASSWORD = '' -add your password
   - DEFAULT_FROM_EMAIL = 'Celery <>' - inside <> add your email
+-> Under celery.py file:
+    app.conf.beat_schedule = {
+      'send-mail-perodically': {
+          'task': 'api.tasks.send_mail_task',
+          'schedule': crontab(hour=17,minute=25), # Add time when the email is to be sent perodically. For example, if we want to send email at 15:00 P.M. It can be set as crontab(hour=15,minute=00).
+     }}
 
 # Features
 1. Users can signup and login (include both email/password and google login).
-3. Users once logged in can view their list of stored password
+3. Users once logged in can view their list of stored password.
 4. Users can save new password (password must be encrypted while saving and decrypted while retrieving, assume relent fields while creating form for password storage)
-5. Send periodic notification to user's email to change old password (assume suitable period) 
+5. Send periodic notification to user's email to change old password (assume suitable period).
