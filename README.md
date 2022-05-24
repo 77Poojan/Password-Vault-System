@@ -2,6 +2,20 @@
 This project is to show list of password and other related data for authenticated users.
 ----------------------------------------------------------------------------------------
 # Installation Process
+ 1. Create virtual environment.
+    - python -m venv c:\path\to\myenv.
+    - 
+2. Activate virtual environment.
+  - yourvirtualenv/Scripts/activate
+  - 
+3. Install packages
+  - pip install -r requirements.txt or
+  - pip3 install -r requirements.txt
+  
+4. Run Django commands
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py runserver
 
 
 # Note
