@@ -2,7 +2,7 @@
 This project is to show list of password and other related data for authenticated users.
 
 ----------------------------------------------------------------------------------------
-# Installation Process
+# Installation Process (Windows)
  1. Create virtual environment.
     - python -m venv c:\path\to\myenv.
     
