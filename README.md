@@ -4,7 +4,7 @@ This project is to show list of password and other related data for authenticate
 # Installation Process
  1. Create virtual environment.
     - python -m venv c:\path\to\myenv.
-    - 
+    
 2. Activate virtual environment.
   - yourvirtualenv/Scripts/activate
   - 
