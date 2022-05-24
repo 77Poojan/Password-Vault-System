@@ -23,6 +23,7 @@ This project is to show list of password and other related data for authenticate
   - EMAIL_HOST_USER = '' - add your email
   - EMAIL_HOST_PASSWORD = '' -add your password
   - DEFAULT_FROM_EMAIL = 'Celery <>' - inside <> add your email
+  
 -> Under celery.py file:
     app.conf.beat_schedule = {
       'send-mail-perodically': {
