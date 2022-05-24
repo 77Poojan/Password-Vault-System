@@ -7,17 +7,16 @@ This project is to show list of password and other related data for authenticate
     - python -m venv c:\path\to\myenv.
     
 2. Activate virtual environment.
-  - yourvirtualenv/Scripts/activate
+   - yourvirtualenv/Scripts/activate
   
 3. Install packages
-  - pip install -r requirements.txt or
-  - pip3 install -r requirements.txt
+   - pip install -r requirements.txt or
+   - pip3 install -r requirements.txt
   
 4. Run Django commands
-  - python manage.py makemigrations
-  - python manage.py migrate
-  - python manage.py runserver
-
+   - python manage.py makemigrations
+   - python manage.py migrate
+   - python manage.py runserver
 
 # Note
 -> Under settings.py file:
