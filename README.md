@@ -6,9 +6,9 @@ This project is to show list of password and other related data for authenticate
 
 # Note
 - Under settings.py file:
-  EMAIL_HOST_USER = '' - add your email
-  EMAIL_HOST_PASSWORD = '' -add your password
-  DEFAULT_FROM_EMAIL = 'Celery <>' - inside <> add your email
+  - EMAIL_HOST_USER = '' - add your email
+  - EMAIL_HOST_PASSWORD = '' -add your password
+  - DEFAULT_FROM_EMAIL = 'Celery <>' - inside <> add your email
 
 # Features
 1. Users can signup and login (include both email/password and google login).
